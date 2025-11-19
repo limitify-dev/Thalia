@@ -1,0 +1,263 @@
+{
+  "common": {
+    "welcome": "Bienvenido",
+    "search": "Buscar",
+    "loading": "Cargando...",
+    "error": "Error",
+    "retry": "Reintentar",
+    "cancel": "Cancelar",
+    "save": "Guardar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "done": "Hecho",
+    "back": "Atrás",
+    "next": "Siguiente",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "tabs": {
+    "home": "Inicio",
+    "browse": "Explorar",
+    "map": "Mapa",
+    "ai": "IA",
+    "profile": "Perfil"
+  },
+  "profile": {
+    "title": "Perfil",
+    "settings": "Configuración",
+    "language": "Idioma",
+    "theme": "Tema",
+    "notifications": "Notificaciones",
+    "about": "Acerca de",
+    "logout": "Cerrar sesión"
+  },
+  "search": {
+    "placeholder": "Buscar lugares...",
+    "noResults": "No se encontraron resultados",
+    "recentSearches": "Búsquedas recientes",
+    "clearHistory": "Borrar historial"
+  },
+  "map": {
+    "myLocation": "Mi ubicación",
+    "searchArea": "Buscar en esta área",
+    "directions": "Direcciones",
+    "nearby": "Cerca"
+  },
+  "aiBot": {
+    "title": "Asistente IA",
+    "placeholder": "Escribe tu mensaje...",
+    "send": "Enviar",
+    "listening": "Escuchando...",
+    "processing": "Procesando..."
+  },
+  "errors": {
+    "networkError": "Error de red. Por favor, verifica tu conexión.",
+    "locationError": "No se puede obtener tu ubicación.",
+    "permissionDenied": "Permiso denegado.",
+    "somethingWentWrong": "Algo salió mal. Por favor, inténtalo de nuevo."
+  },
+  "home": {
+    "hello": "Hola",
+    "discoverSites": "Descubre {{count}} sitios culturales cerca de ti",
+    "searchPlaceholder": "Buscar un museo, una exposición o arte...",
+    "categories": {
+      "all": "Todo",
+      "museum": "Museo",
+      "landmark": "Monumento",
+      "gallery": "Galería",
+      "monument": "Monumento",
+      "historic_site": "Sitio Histórico",
+      "religious_site": "Sitio Religioso",
+      "park": "Parque",
+      "building": "Edificio",
+      "archaeological_site": "Sitio Arqueológico",
+      "palace": "Palacio",
+      "castle": "Castillo",
+      "temple": "Templo",
+      "memorial": "Memorial",
+      "bridge": "Puente",
+      "tower": "Torre",
+      "library": "Biblioteca",
+      "theater": "Teatro",
+      "market": "Mercado",
+      "square": "Plaza",
+      "garden": "Jardín"
+    },
+    "updating": "Actualizando lugares cercanos…",
+    "loadingMapData": "Cargando datos del mapa...",
+    "loadingMore": "Cargando más…",
+    "discoveries": "Descubrimientos",
+    "selection": "Selección",
+    "seeAll": "Ver todo",
+    "seeNow": "Ver ahora",
+    "kmAway": "{{distance}} km",
+    "mAway": "{{distance}} m",
+    "unknown": "Desconocido",
+    "noSitesMatchFilters": "Ningún sitio coincide con tus filtros",
+    "tryDifferentFilters": "Prueba una categoría diferente o término de búsqueda",
+    "noSitesNearby": "No se encontraron sitios cercanos",
+    "tryDifferentLocation": "Intenta moverte a una ubicación diferente o vuelve más tarde",
+    "locationError": "Error de ubicación",
+    "permissionDenied": "Permiso denegado",
+    "locationPermissionRequired": "Se requiere permiso de ubicación para mostrar sitios cercanos. Por favor, actívalo en la configuración.",
+    "unableToFetchLocation": "No se puede obtener la ubicación. Por favor, activa los servicios de ubicación.",
+    "unableToFetchLocationLong": "No se puede obtener la ubicación. Por favor, activa los servicios de ubicación o inténtalo de nuevo.",
+    "retry": "Reintentar",
+    "refreshFailed": "Fallo al actualizar",
+    "unableToRefresh": "No se pueden actualizar los datos. Por favor, inténtalo de nuevo."
+  },
+  "aiBot": {
+    "title": "Inteligencia Artificial",
+    "chatWithThaia": "Hablar con Thaïa",
+    "chatDescription": "Haz preguntas sobre arte, exposiciones y obtén recomendaciones personalizadas",
+    "startConversation": "Iniciar conversación",
+    "imageSearch": "Búsqueda por imagen",
+    "imageSearchDescription": "Toma una foto de una obra para obtener información detallada",
+    "openCamera": "Abrir cámara",
+    "interactionHistory": "Historial de interacciones",
+    "modernArtRecommendations": "Recomendaciones de arte moderno",
+    "sculptureAtLouvre": "Escultura en el Louvre",
+    "hoursAgo": "Hace {{hours}} horas",
+    "yesterday": "Ayer",
+    "resume": "Reanudar",
+    "review": "Revisar",
+    "chat": {
+      "startWithThaia": "Comenzar con Thaïa",
+      "tabs": {
+        "write": "Escribir",
+        "speak": "Hablar",
+        "photo": "Foto"
+      },
+      "placeholder": "Haz tu pregunta sobre arte, museos...",
+      "status": {
+        "listening": "Escuchando...",
+        "processing": "Procesando...",
+        "transcribing": "Transcribiendo...",
+        "thinking": "Pensando...",
+        "responding": "Respondiendo..."
+      },
+      "speakInstructions": {
+        "recording": "Mantén pulsado para hablar",
+        "idle": "Pulsa para hablar"
+      },
+      "photoPlaceholder": "Trabajo en progreso",
+      "clearConversation": "Borrar conversación",
+      "confirmClear": "¿Estás seguro de que quieres eliminar todos los mensajes?",
+      "errors": {
+        "recordingPermission": "Se requiere permiso de grabación para usar el modo de voz.",
+        "microphoneAccess": "Se necesita acceso al micrófono para grabar.",
+        "couldNotStartRecording": "No se pudo iniciar la grabación. Por favor, inténtalo de nuevo.",
+        "recordingFailed": "Fallo en la grabación - no se generó ningún archivo de audio.",
+        "couldNotFinishRecording": "No se pudo finalizar la grabación.",
+        "audioError": "Ocurrió un error de audio",
+        "transcriptionError": "Error de transcripción. Por favor, inténtalo de nuevo.",
+        "apiError": "No se pudo obtener respuesta de la IA. Por favor, inténtalo de nuevo.",
+        "pleaseWait": "Por favor espera",
+        "stillSpeaking": "Todavía estoy hablando. Inténtalo más tarde."
+      },
+      "permissionRequired": "Permiso requerido"
+    }
+  },
+  "browse": {
+    "title": "Explorar",
+    "recentSearches": "Búsquedas recientes",
+    "recentlyViewed": "Vistos recientemente",
+    "viewAll": "Ver todo",
+    "kmAway": "{{distance}}KM",
+    "categories": {
+      "modernArt": "Arte Moderno",
+      "history": "Historia",
+      "photography": "Fotografía",
+      "sculpture": "Escultura",
+      "painting": "Pintura",
+      "architecture": "Arquitectura"
+    }
+  },
+  "profile": {
+    "account": "Cuenta",
+    "premiumMember": "Miembro Premium",
+    "culturalExplorer": "Explorador Cultural",
+    "bio": "Entusiasta del arte apasionado por los museos y exposiciones contemporáneas.",
+    "culturalStatistics": "Estadísticas Culturales",
+    "general": "General",
+    "museumsVisited": "Museos visitados",
+    "explorationTime": "Tiempo de exploración",
+    "favoriteExpos": "Exposiciones favoritas",
+    "mySubscription": "Mi Suscripción",
+    "helpSupport": "Ayuda y Soporte",
+    "about": "Acerca de",
+    "logout": "Cerrar sesión",
+    "interests": {
+      "modernArt": "Arte Moderno",
+      "history": "Historia",
+      "photography": "Fotografía",
+      "sculpture": "Escultura"
+    }
+  },
+  "settings": {
+    "title": "Configuración",
+    "searchPlaceholder": "Buscar una configuración...",
+    "preferences": "Preferencias",
+    "language": "Idioma",
+    "darkMode": "Modo oscuro",
+    "darkModeDescription": "Activar tema oscuro",
+    "notifications": "Notificaciones",
+    "pushNotifications": "Notificaciones push",
+    "pushNotificationsDescription": "Recibir notificaciones",
+    "privacy": "Privacidad",
+    "privacyDescription": "Gestionar tus datos personales",
+    "support": "Soporte",
+    "helpSupport": "Ayuda y Soporte",
+    "helpSupportDescription": "Preguntas frecuentes y asistencia técnica",
+    "selectLanguage": "Seleccionar idioma",
+    "changesApplied": "Los cambios se aplicarán inmediatamente",
+    "languages": {
+      "en": "Inglés",
+      "fr": "Francés",
+      "es": "Español",
+      "zh": "Chino"
+    }
+  },
+  "detail": {
+    "actions": {
+      "save": "Guardar",
+      "navigate": "Navegar",
+      "askAI": "Preguntar a la IA",
+      "share": "Compartir"
+    },
+    "tabs": {
+      "description": "Descripción",
+      "history": "Historia",
+      "reviews": "Reseñas",
+      "exhibitions": "Exposiciones",
+      "location": "Ubicación"
+    },
+    "info": {
+      "opening": "Apertura",
+      "patrimoine": "Patrimonio",
+      "culturalSite": "Sitio Cultural"
+    },
+    "reviews": {
+      "title": "Reseñas",
+      "viewAll": "Ver todo",
+      "writeReview": "Escribir una reseña",
+      "viewMoreReviews": "Ver más reseñas",
+      "thaiaReviews": "reseñas Thaïa",
+      "expert": "Experto",
+      "visits": "visitas",
+      "tags": {
+        "impressionism": "#Impresionismo",
+        "audioGuide": "#AudioGuía",
+        "family": "#Familia"
+      }
+    },
+    "aiHelp": "¿Necesitas ayuda? Pregunta a nuestra IA",
+    "errors": {
+      "locationUnavailable": "Las coordenadas de ubicación no están disponibles.",
+      "unableToOpenMaps": "No se puede abrir la aplicación de mapas.",
+      "errorOpeningMaps": "Ocurrió un error al abrir los mapas."
+    },
+    "noContentFound": "No se encontró {{tab}} por el momento",
+    "noDescriptionAvailable": "No hay descripción disponible"
+  }
+}

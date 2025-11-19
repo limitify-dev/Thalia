@@ -1,11 +1,12 @@
 {
   "expo": {
-    "name": "thaia",
-    "slug": "thaia",
+    "name": "Thaia",
+    "slug": "Thaia",
+    "scheme": "thaia",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
@@ -13,18 +14,75 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.limitify.thaia",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses location to show nearby places on the map.",
+        "NSMicrophoneUsageDescription": "This app uses the microphone to record voice messages for AI interaction.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to your location to provide location-based services even when in the background.",
+        "NSLocationAlwaysUsageDescription": "This app needs access to your location to provide location-based services.",
+        "NSLocationTemporaryUsageDescriptionDictionary": {
+          "Purpose1": "We need your location to show nearby points of interest."
+        },
+        "ITSAppUsesNonExemptEncryption": false
+      },
+      "appleTeamId": "53NSQQSR4P",
+      "userInterfaceStyle": "automatic"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
+      "userInterfaceStyle": "automatic",
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECORD_AUDIO",
+        "INTERNET",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "RECORD_AUDIO",
+        "INTERNET",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "package": "com.limitify.thaia"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@rnmapbox/maps",
+        {
+          "RNMapboxMapsImpl": "mapbox"
+        }
+      ],
+      "expo-font",
+      "expo-localization",
+      "expo-asset",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "deploymentTarget": "15.1",
+            "enableBitcode": false
+          }
+        }
+      ]
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "a9e978b6-a900-4c34-beea-194fee647252"
+      }
+    },
+    "owner": "limitify"
   }
 }

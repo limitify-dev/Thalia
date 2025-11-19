@@ -1,0 +1,263 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "search": "Search",
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "done": "Done",
+    "back": "Back",
+    "next": "Next",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "tabs": {
+    "home": "Home",
+    "browse": "Browse",
+    "map": "Map",
+    "ai": "AI",
+    "profile": "Profile"
+  },
+  "profile": {
+    "title": "Profile",
+    "settings": "Settings",
+    "language": "Language",
+    "theme": "Theme",
+    "notifications": "Notifications",
+    "about": "About",
+    "logout": "Logout"
+  },
+  "search": {
+    "placeholder": "Search for places...",
+    "noResults": "No results found",
+    "recentSearches": "Recent Searches",
+    "clearHistory": "Clear History"
+  },
+  "map": {
+    "myLocation": "My Location",
+    "searchArea": "Search this area",
+    "directions": "Directions",
+    "nearby": "Nearby"
+  },
+  "aiBot": {
+    "title": "AI Assistant",
+    "placeholder": "Type your message...",
+    "send": "Send",
+    "listening": "Listening...",
+    "processing": "Processing..."
+  },
+  "errors": {
+    "networkError": "Network error. Please check your connection.",
+    "locationError": "Unable to get your location.",
+    "permissionDenied": "Permission denied.",
+    "somethingWentWrong": "Something went wrong. Please try again."
+  },
+  "home": {
+    "hello": "Hello",
+    "discoverSites": "Discover {{count}} cultural sites near you",
+    "searchPlaceholder": "Search a museum, an exhibition or art...",
+    "categories": {
+      "all": "All",
+      "museum": "Museum",
+      "landmark": "Landmark",
+      "gallery": "Gallery",
+      "monument": "Monument",
+      "historic_site": "Historic Site",
+      "religious_site": "Religious Site",
+      "park": "Park",
+      "building": "Building",
+      "archaeological_site": "Archaeological Site",
+      "palace": "Palace",
+      "castle": "Castle",
+      "temple": "Temple",
+      "memorial": "Memorial",
+      "bridge": "Bridge",
+      "tower": "Tower",
+      "library": "Library",
+      "theater": "Theater",
+      "market": "Market",
+      "square": "Square",
+      "garden": "Garden"
+    },
+    "updating": "Updating nearby places…",
+    "loadingMapData": "Loading map data...",
+    "loadingMore": "Loading more…",
+    "discoveries": "Discoveries",
+    "selection": "Selection",
+    "seeAll": "See all",
+    "seeNow": "See now",
+    "kmAway": "{{distance}} km away",
+    "mAway": "{{distance}} m away",
+    "unknown": "Unknown",
+    "noSitesMatchFilters": "No sites match your filters",
+    "tryDifferentFilters": "Try a different category or search term",
+    "noSitesNearby": "No sites found nearby",
+    "tryDifferentLocation": "Try moving to a different location or check back later",
+    "locationError": "Location Error",
+    "permissionDenied": "Permission Denied",
+    "locationPermissionRequired": "Location permission is required to show nearby sites. Please enable it in settings.",
+    "unableToFetchLocation": "Unable to fetch location. Please enable location services.",
+    "unableToFetchLocationLong": "Unable to fetch location. Please enable location services or try again.",
+    "retry": "Retry",
+    "refreshFailed": "Refresh Failed",
+    "unableToRefresh": "Unable to refresh data. Please try again."
+  },
+  "aiBot": {
+    "title": "Artificial Intelligence",
+    "chatWithThaia": "Chat with Thaïa",
+    "chatDescription": "Ask questions about art, exhibitions and get personalized recommendations",
+    "startConversation": "Start conversation",
+    "imageSearch": "Image search",
+    "imageSearchDescription": "Take a photo of an artwork to get detailed information",
+    "openCamera": "Open camera",
+    "interactionHistory": "Interaction history",
+    "modernArtRecommendations": "Modern art recommendations",
+    "sculptureAtLouvre": "Sculpture at Louvre",
+    "hoursAgo": "{{hours}} hours ago",
+    "yesterday": "Yesterday",
+    "resume": "Resume",
+    "review": "Review",
+    "chat": {
+      "startWithThaia": "Start with Thaïa",
+      "tabs": {
+        "write": "Write",
+        "speak": "Speak",
+        "photo": "Photo"
+      },
+      "placeholder": "Ask your question about art, museums...",
+      "status": {
+        "listening": "Listening...",
+        "processing": "Processing...",
+        "transcribing": "Transcribing...",
+        "thinking": "Thinking...",
+        "responding": "Responding..."
+      },
+      "speakInstructions": {
+        "recording": "Hold to speak",
+        "idle": "Tap to speak"
+      },
+      "photoPlaceholder": "Work in Progress",
+      "clearConversation": "Clear conversation",
+      "confirmClear": "Are you sure you want to delete all messages?",
+      "errors": {
+        "recordingPermission": "Recording permission is required to use voice mode.",
+        "microphoneAccess": "Microphone access is needed to record.",
+        "couldNotStartRecording": "Could not start recording. Please try again.",
+        "recordingFailed": "Recording failed - no audio file generated.",
+        "couldNotFinishRecording": "Could not finish recording.",
+        "audioError": "Audio error occurred",
+        "transcriptionError": "Transcription error. Please try again.",
+        "apiError": "Could not get response from AI. Please try again.",
+        "pleaseWait": "Please wait",
+        "stillSpeaking": "I'm still speaking. Try again afterwards."
+      },
+      "permissionRequired": "Permission Required"
+    }
+  },
+  "browse": {
+    "title": "Browse",
+    "recentSearches": "Recent Searches",
+    "recentlyViewed": "Recently Viewed",
+    "viewAll": "View all",
+    "kmAway": "{{distance}}KM away",
+    "categories": {
+      "modernArt": "Modern Art",
+      "history": "History",
+      "photography": "Photography",
+      "sculpture": "Sculpture",
+      "painting": "Painting",
+      "architecture": "Architecture"
+    }
+  },
+  "profile": {
+    "account": "Account",
+    "premiumMember": "Premium Member",
+    "culturalExplorer": "Cultural Explorer",
+    "bio": "Art enthusiast passionate about museums and contemporary exhibitions.",
+    "culturalStatistics": "Cultural Statistics",
+    "general": "General",
+    "museumsVisited": "Museums visited",
+    "explorationTime": "Exploration time",
+    "favoriteExpos": "Favorite expos",
+    "mySubscription": "My Subscription",
+    "helpSupport": "Help & Support",
+    "about": "About",
+    "logout": "Logout",
+    "interests": {
+      "modernArt": "Modern Art",
+      "history": "History",
+      "photography": "Photography",
+      "sculpture": "Sculpture"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "searchPlaceholder": "Search a setting...",
+    "preferences": "Preferences",
+    "language": "Language",
+    "darkMode": "Dark mode",
+    "darkModeDescription": "Enable dark theme",
+    "notifications": "Notifications",
+    "pushNotifications": "Push notifications",
+    "pushNotificationsDescription": "Receive notifications",
+    "privacy": "Privacy",
+    "privacyDescription": "Manage your personal data",
+    "support": "Support",
+    "helpSupport": "Help & Support",
+    "helpSupportDescription": "FAQ and technical assistance",
+    "selectLanguage": "Select language",
+    "changesApplied": "Changes will be applied immediately",
+    "languages": {
+      "en": "English",
+      "fr": "French",
+      "es": "Spanish",
+      "zh": "Chinese"
+    }
+  },
+  "detail": {
+    "actions": {
+      "save": "Save",
+      "navigate": "Navigate",
+      "askAI": "Ask AI",
+      "share": "Share"
+    },
+    "tabs": {
+      "description": "Description",
+      "history": "History",
+      "reviews": "Reviews",
+      "exhibitions": "Exhibitions",
+      "location": "Location"
+    },
+    "info": {
+      "opening": "Opening",
+      "patrimoine": "Heritage",
+      "culturalSite": "Cultural Site"
+    },
+    "reviews": {
+      "title": "Reviews",
+      "viewAll": "View all",
+      "writeReview": "Write a review",
+      "viewMoreReviews": "View more reviews",
+      "thaiaReviews": "reviews Thaïa",
+      "expert": "Expert",
+      "visits": "visits",
+      "tags": {
+        "impressionism": "#Impressionism",
+        "audioGuide": "#AudioGuide",
+        "family": "#Family"
+      }
+    },
+    "aiHelp": "Need help? Ask our AI",
+    "errors": {
+      "locationUnavailable": "Location coordinates are not available.",
+      "unableToOpenMaps": "Unable to open maps application.",
+      "errorOpeningMaps": "An error occurred while opening maps."
+    },
+    "noContentFound": "No {{tab}} found for the moment",
+    "noDescriptionAvailable": "No description available"
+  }
+}

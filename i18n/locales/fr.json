@@ -1,0 +1,263 @@
+{
+  "common": {
+    "welcome": "Bienvenue",
+    "search": "Rechercher",
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "retry": "Réessayer",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "done": "Terminé",
+    "back": "Retour",
+    "next": "Suivant",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "tabs": {
+    "home": "Accueil",
+    "browse": "Parcourir",
+    "map": "Carte",
+    "ai": "IA",
+    "profile": "Profil"
+  },
+  "profile": {
+    "title": "Profil",
+    "settings": "Paramètres",
+    "language": "Langue",
+    "theme": "Thème",
+    "notifications": "Notifications",
+    "about": "À propos",
+    "logout": "Déconnexion"
+  },
+  "search": {
+    "placeholder": "Rechercher des lieux...",
+    "noResults": "Aucun résultat trouvé",
+    "recentSearches": "Recherches récentes",
+    "clearHistory": "Effacer l'historique"
+  },
+  "map": {
+    "myLocation": "Ma position",
+    "searchArea": "Rechercher dans cette zone",
+    "directions": "Itinéraire",
+    "nearby": "À proximité"
+  },
+  "aiBot": {
+    "title": "Assistant IA",
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "listening": "Écoute en cours...",
+    "processing": "Traitement en cours..."
+  },
+  "errors": {
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "locationError": "Impossible d'obtenir votre position.",
+    "permissionDenied": "Permission refusée.",
+    "somethingWentWrong": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "home": {
+    "hello": "Bonjour",
+    "discoverSites": "Découvrez {{count}} sites culturels près de chez vous",
+    "searchPlaceholder": "Rechercher un musée, une exposition ou de l'art...",
+    "categories": {
+      "all": "Tout",
+      "museum": "Musée",
+      "landmark": "Monument",
+      "gallery": "Galerie",
+      "monument": "Monument",
+      "historic_site": "Site Historique",
+      "religious_site": "Site Religieux",
+      "park": "Parc",
+      "building": "Bâtiment",
+      "archaeological_site": "Site Archéologique",
+      "palace": "Palais",
+      "castle": "Château",
+      "temple": "Temple",
+      "memorial": "Mémorial",
+      "bridge": "Pont",
+      "tower": "Tour",
+      "library": "Bibliothèque",
+      "theater": "Théâtre",
+      "market": "Marché",
+      "square": "Place",
+      "garden": "Jardin"
+    },
+    "updating": "Mise à jour des lieux à proximité…",
+    "loadingMapData": "Chargement des données de la carte...",
+    "loadingMore": "Chargement de plus…",
+    "discoveries": "Découvertes",
+    "selection": "Sélection",
+    "seeAll": "Voir tout",
+    "seeNow": "Voir maintenant",
+    "kmAway": "{{distance}} km",
+    "mAway": "{{distance}} m",
+    "unknown": "Inconnu",
+    "noSitesMatchFilters": "Aucun site ne correspond à vos filtres",
+    "tryDifferentFilters": "Essayez une autre catégorie ou terme de recherche",
+    "noSitesNearby": "Aucun site trouvé à proximité",
+    "tryDifferentLocation": "Essayez de vous déplacer vers un autre endroit ou revenez plus tard",
+    "locationError": "Erreur de localisation",
+    "permissionDenied": "Permission refusée",
+    "locationPermissionRequired": "L'autorisation de localisation est nécessaire pour afficher les sites à proximité. Veuillez l'activer dans les paramètres.",
+    "unableToFetchLocation": "Impossible d'obtenir la localisation. Veuillez activer les services de localisation.",
+    "unableToFetchLocationLong": "Impossible d'obtenir la localisation. Veuillez activer les services de localisation ou réessayer.",
+    "retry": "Réessayer",
+    "refreshFailed": "Échec de l'actualisation",
+    "unableToRefresh": "Impossible d'actualiser les données. Veuillez réessayer."
+  },
+  "aiBot": {
+    "title": "Intelligence Artificielle",
+    "chatWithThaia": "Parler avec Thaïa",
+    "chatDescription": "Posez vos questions sur l'art, les expositions et découvrez des recommandations personnalisées",
+    "startConversation": "Commencer la conversation",
+    "imageSearch": "Recherche par image",
+    "imageSearchDescription": "Prenez une photo d'une œuvre pour obtenir des informations détaillées",
+    "openCamera": "Ouvrir l'appareil photo",
+    "interactionHistory": "Historique des interactions",
+    "modernArtRecommendations": "Recommandations d'art moderne",
+    "sculptureAtLouvre": "Sculpture au Louvre",
+    "hoursAgo": "Il y a {{hours}} heures",
+    "yesterday": "Hier",
+    "resume": "Reprendre",
+    "review": "Revoir",
+    "chat": {
+      "startWithThaia": "Commencer avec Thaïa",
+      "tabs": {
+        "write": "Écrire",
+        "speak": "Parler",
+        "photo": "Photo"
+      },
+      "placeholder": "Posez votre question sur l'art, les musées...",
+      "status": {
+        "listening": "Écoute en cours...",
+        "processing": "Traitement en cours...",
+        "transcribing": "Transcription en cours...",
+        "thinking": "Réflexion en cours...",
+        "responding": "Réponse en cours..."
+      },
+      "speakInstructions": {
+        "recording": "Maintenez appuyé pour parler",
+        "idle": "Appuyez pour parler"
+      },
+      "photoPlaceholder": "En cours de développement",
+      "clearConversation": "Effacer la conversation",
+      "confirmClear": "Êtes-vous sûr de vouloir supprimer tous les messages ?",
+      "errors": {
+        "recordingPermission": "L'autorisation d'enregistrement est requise pour utiliser le mode vocal.",
+        "microphoneAccess": "L'accès au microphone est nécessaire pour enregistrer.",
+        "couldNotStartRecording": "Impossible de démarrer l'enregistrement. Veuillez réessayer.",
+        "recordingFailed": "Échec de l'enregistrement - aucun fichier audio généré.",
+        "couldNotFinishRecording": "Impossible de terminer l'enregistrement.",
+        "audioError": "Une erreur audio s'est produite",
+        "transcriptionError": "Erreur de transcription. Veuillez réessayer.",
+        "apiError": "Impossible d'obtenir une réponse de l'IA. Veuillez réessayer.",
+        "pleaseWait": "Veuillez patienter",
+        "stillSpeaking": "Je parle encore. Réessayez plus tard."
+      },
+      "permissionRequired": "Autorisation requise"
+    }
+  },
+  "browse": {
+    "title": "Parcourir",
+    "recentSearches": "Recherches récentes",
+    "recentlyViewed": "Récemment consultés",
+    "viewAll": "Voir tout",
+    "kmAway": "{{distance}}KM",
+    "categories": {
+      "modernArt": "Art Moderne",
+      "history": "Histoire",
+      "photography": "Photographie",
+      "sculpture": "Sculpture",
+      "painting": "Peinture",
+      "architecture": "Architecture"
+    }
+  },
+  "profile": {
+    "account": "Compte",
+    "premiumMember": "Membre Premium",
+    "culturalExplorer": "Explorateur Culturel",
+    "bio": "Amateur d'art passionné par les musées et les expositions contemporaines.",
+    "culturalStatistics": "Statistiques Culturelles",
+    "general": "Général",
+    "museumsVisited": "Musées visités",
+    "explorationTime": "Temps d'exploration",
+    "favoriteExpos": "Expos favorites",
+    "mySubscription": "Mon Abonnement",
+    "helpSupport": "Aide & Support",
+    "about": "À propos",
+    "logout": "Se déconnecter",
+    "interests": {
+      "modernArt": "Art Moderne",
+      "history": "Histoire",
+      "photography": "Photographie",
+      "sculpture": "Sculpture"
+    }
+  },
+  "settings": {
+    "title": "Paramètres",
+    "searchPlaceholder": "Rechercher un réglage...",
+    "preferences": "Préférences",
+    "language": "Langue",
+    "darkMode": "Mode sombre",
+    "darkModeDescription": "Activer le thème sombre",
+    "notifications": "Notifications",
+    "pushNotifications": "Notifications push",
+    "pushNotificationsDescription": "Recevoir des notifications",
+    "privacy": "Confidentialité",
+    "privacyDescription": "Gérer vos données personnelles",
+    "support": "Support",
+    "helpSupport": "Aide & Support",
+    "helpSupportDescription": "FAQ et assistance technique",
+    "selectLanguage": "Sélectionner la langue",
+    "changesApplied": "Les modifications seront appliquées immédiatement",
+    "languages": {
+      "en": "Anglais",
+      "fr": "Français",
+      "es": "Espagnol",
+      "zh": "Chinois"
+    }
+  },
+  "detail": {
+    "actions": {
+      "save": "Enregistrer",
+      "navigate": "Naviguer",
+      "askAI": "Demander à l'IA",
+      "share": "Partager"
+    },
+    "tabs": {
+      "description": "Description",
+      "history": "Historique",
+      "reviews": "Avis",
+      "exhibitions": "Expositions",
+      "location": "Localisation"
+    },
+    "info": {
+      "opening": "Ouverture",
+      "patrimoine": "Patrimoine",
+      "culturalSite": "Site Culturel"
+    },
+    "reviews": {
+      "title": "Avis",
+      "viewAll": "Voir tout",
+      "writeReview": "Écrire un avis",
+      "viewMoreReviews": "Voir plus d'avis",
+      "thaiaReviews": "avis Thaïa",
+      "expert": "Expert",
+      "visits": "visites",
+      "tags": {
+        "impressionism": "#Impressionnisme",
+        "audioGuide": "#Audioguide",
+        "family": "#Famille"
+      }
+    },
+    "aiHelp": "Besoin d'aide ? Demandez à notre IA",
+    "errors": {
+      "locationUnavailable": "Les coordonnées de localisation ne sont pas disponibles.",
+      "unableToOpenMaps": "Impossible d'ouvrir l'application de cartes.",
+      "errorOpeningMaps": "Une erreur s'est produite lors de l'ouverture des cartes."
+    },
+    "noContentFound": "Aucun {{tab}} trouvé pour le moment",
+    "noDescriptionAvailable": "Aucune description disponible"
+  }
+}

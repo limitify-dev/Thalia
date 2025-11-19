@@ -1,9 +1,8 @@
 import { Ionicons } from "@expo/vector-icons";
 import MapboxGL, { Camera, ShapeSource, SymbolLayer } from "@rnmapbox/maps";
-import { MAPBOX_ACCESS_TOKEN } from "@/utils/config";
 import { useDynamicCities } from "@/hooks/useDynamicCities";
 
-MapboxGL.setAccessToken(MAPBOX_ACCESS_TOKEN);
+MapboxGL.setAccessToken(process.env.EXPO_MAPBOX_ACCESS_TOKEN!);
 
 import { LinearGradient } from "expo-linear-gradient";
 import * as Location from "expo-location";
@@ -132,7 +131,7 @@ export default function MapScreen() {
   const [modalVisible, setModalVisible] = useState(false);
 
   useEffect(() => {
-    MapboxGL.setAccessToken(MAPBOX_ACCESS_TOKEN);
+    MapboxGL.setAccessToken(process.env.EXPO_MAPBOX_ACCESS_TOKEN!);
   }, []);
 
   const centerToUserLocation = useCallback(

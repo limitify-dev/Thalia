@@ -1,13 +1,13 @@
-# Thaia
+# Thalia
 
 <!-- Banner space - Add your banner image here -->
 <p align="center">
-  <img src="./assets/banner.png" alt="Thaia Banner" />
+  <img src="./assets/banner.png" alt="Thalia Banner" />
 </p>
 
 ## About
 
-Thaia is a mobile application built with React Native and Expo that helps users discover and explore galleries, exhibitions, and cultural sites. The app features an AI-powered assistant, interactive maps, personalized recommendations, and location-based services to enhance the cultural exploration experience.
+Thalia is a mobile application built with React Native and Expo that helps users discover and explore galleries, exhibitions, and cultural sites. The app features an AI-powered assistant, interactive maps, personalized recommendations, and location-based services to enhance the cultural exploration experience.
 
 ## Features
 
@@ -103,7 +103,7 @@ npm run web
 ## Project Structure
 
 ```
-thaia/
+thalia/
 ├── app/                      # Expo Router screens
 │   ├── (tabs)/              # Tab navigation screens
 │   │   ├── index.tsx        # Home screen

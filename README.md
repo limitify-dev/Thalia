@@ -2,7 +2,7 @@
 
 <!-- Banner space - Add your banner image here -->
 <p align="center">
-  <!-- Your banner goes here -->
+  <img src="./assets/banner.png" alt="Thaia Banner" />
 </p>
 
 ## About
